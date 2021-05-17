@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Arena Arena!</title>
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div id="intro">
+  <h1>Welcome to Animal Arena!</h1>
+  <p>Choose your animal and defeat your opponent in single combat.<br>
+  Instructions are at the bottom of the page.</p>
+</div>
+
+<div id="gameArea">
+  <input type="button" value="Computer turn" id="computerTurn">
+<div id="computerPlay">
+
+</div>
+
+<div id="gameField"></div>
+
+
+<div id="gameControl">
+<input type="button" value="Lion" id="lion">
+<input type="button" value="Turtle" id="turtle">
+<input type="button" value="Giraffe" id="giraffe">
+</div>
+</div>
+
+<div id="guide">
+  <h2>Instructions</h2>
+  <p>Choose your animal and select one of the three
+  abilities that are available to to each animal. Each
+  animal's Ablities are unique that animal. Choose your ability
+  and then click the computers turn for the computer to choose their
+  ability then repeat until the game is finished. Refresh the page
+  to start again. If you are confused as to who's turn it is just
+  click the computer turn this will change it to your turn.</p>
+<h3>Lion</h3>
+<p>Health:400<br>
+  Attack: Lions attack does a great amount of damage.<br>
+   dodge: This ability does a bit of damage and has a chance to make<br>
+   your opponents next turn miss you if it's an attack against you.<br>
+    Bask: Heals you for a moderate amount and increases your Attack <br>
+    ability damage. This ability stacks.<br>
+
+  </p>
+<h3>Turtle</h3>
+  <p>Health:500<br>
+    Attack: Does an average amount of damage.<br>
+      Shell retreat: Heals a small amount and increases defense a small<br>
+      amount. This ability stacks.<br>
+    Snap: This does an extreme amount of damage. But erases your defense<br>
+    and increases opponents attacks.
+  </p>
+<h3>Giraffe</h3>
+  <p>Health:600<br>
+    Attack: Does a small amount of damage.<br>
+    Flail: Does a moderate amount of damage half of that is inflicted<br>
+    on self.<br>
+    Munch: Heals a great amount.<br>
+
+  </p>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+ integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+
+<script src="apps.js"></script>
+
+</body>
+</html>

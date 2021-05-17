@@ -1,0 +1,154 @@
+#gameArea{
+  background-color: #393b3a;
+  height:500px;
+  width:500px;
+  display:block;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+body{
+  background-color: grey;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 50px;
+  font-family: fantasy;
+  color:#076e29;
+}
+#intro, #guide{
+  font-size: 1.5em;
+}
+#intro p, #guide p{
+  margin:0px;
+}
+#intro h1{
+  margin-top:0px;
+}
+#computerPlay{
+  width:100%;
+  height:20%;
+  background-color:#393b3a;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+#gameControl {
+  display:flex;
+  justify-content: space-around;
+
+
+}
+#gameField{
+  height:60%;
+  width:100%;
+  background-color: black;
+}
+#lionMob{
+  background-color: blue;
+  height:150px;
+  width:95%;
+  color:yellow;
+  font-size: 3em;
+  border:3px solid black;
+  border-radius: 10px;
+  margin-top:25px;
+}
+#lionAttack {
+  width:60px;
+  font-family: fantasy;
+  border: 5px solid #c7a002;
+  border-radius: 10px;
+  background-color: #ad4e56;
+}
+#puterLion, #puterTurtle, #puterGiraffe{
+  height:100%;
+  width:40%;
+  background-color: #8b318c;
+  color:black;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  border: 3px solid black;
+  border-radius: 10px;
+  flex-direction: column;
+}
+#lionDodge {
+  width:60px;
+  font-family: fantasy;
+  border: 5px solid #c7a002;
+  border-radius: 10px;
+  background-color: #ad4e56;
+  margin-top:70px;
+}
+#turtleShell, #turtleAttack, #snap{
+
+    width:100px;
+    font-family: fantasy;
+    border: 5px solid #c7a002;
+    border-radius: 10px;
+    background-color: #ad4e56;
+    margin-top:70px;
+}
+#puterLion p{
+  margin:0px;
+  font-size: .5em;
+}
+#puterTurtle p{
+  margin:0px;
+  font-size: .5em;
+}
+#puterGiraffe p{
+  margin:0px;
+  font-size: .5em;
+}
+#computerTurn{
+  margin-right:500px;
+  font-family: fantasy;
+  border: 5px solid #c7a002;
+  border-radius: 10px;
+  background-color: #ad4e56;
+}
+
+#bask {
+  width:60px;
+  font-family: fantasy;
+  border: 5px solid #c7a002;
+  border-radius: 10px;
+  background-color: #ad4e56;
+  margin-top:70px;
+}
+#turtle{
+  width:60px;
+  font-family: fantasy;
+  border: 5px solid #c7a002;
+  border-radius: 10px;
+  background-color: #ad4e56;
+}
+#lion{
+  width:60px;
+  font-family: fantasy;
+  border: 5px solid #c7a002;
+  border-radius: 10px;
+  background-color: #ad4e56;
+}
+#giraffe{
+  width:60px;
+  font-family: fantasy;
+  border: 5px solid #c7a002;
+  border-radius: 10px;
+  background-color: #ad4e56;
+}
+#giraffeAttack, #munch, #flail {
+  width:60px;
+  font-family: fantasy;
+  border: 5px solid #c7a002;
+  border-radius: 10px;
+  background-color: #ad4e56;
+  margin-top:70px;
+}
+#lionMob p{
+  margin:0;
+  height:100px;
+}
